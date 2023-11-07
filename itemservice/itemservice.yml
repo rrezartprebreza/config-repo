@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        format_sql: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/itemsharingdb
+    username: root
+    password: abc
+
+server:
+  port: 3002
